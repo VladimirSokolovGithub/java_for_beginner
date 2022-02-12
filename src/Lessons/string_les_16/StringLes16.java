@@ -28,6 +28,16 @@ public class StringLes16 {
         //5.
         StringBuffer sb2 = new StringBuffer("Hello");
         String s12 = new String(sb2);
+
+        //6. Ещё один конструктор класса String
+        char[] array = new char[]{'h', 'e', 'l', 'l', 'o'};
+        String s = new String(array); //можно в качестве параметра String использовать массив типа char
+
+        //пример
+        char[] array1 = new char[]{'h', 'e', 'l', 'l', 'o'};
+        String string = new String(array1);
+        System.out.println(string);
+
     }
 
 }

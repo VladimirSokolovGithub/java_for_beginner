@@ -107,5 +107,21 @@ public class StringBuilderMethods {
         System.out.println("ab13 = " + sb13);
         System.out.println("ab14 = " + sb14);
 
+        // 13. метод append
+        StringBuilder sb15 = new StringBuilder("ok");
+        char[] array = new char[]{'h', 'e', 'l', 'l', 'o'};
+        sb15.append(array, 2, 3);//добавляет в объект sb15 элементы из массива чаров array,
+                                           // начиная с элемента под индексом 2 в количестве трёх элементов
+        System.out.println(sb15);
+
+        // 14. метод insert
+        StringBuilder sb16 = new StringBuilder("privet");
+        char[] array1 = {'h', 'e', 'l', 'l', 'o'};
+        sb16.insert(1, array1, 2,3);//будем insert в объект sb16 на место эллемента под индексом 1
+                                                    // элементы из массива чаров array, начиная с элемента
+                                                    // под индексом 2 в количестве трёх элементов
+        System.out.println(sb16);
+
+
     }
 }
