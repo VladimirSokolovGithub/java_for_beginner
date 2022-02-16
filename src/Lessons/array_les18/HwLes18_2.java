@@ -2,17 +2,32 @@ package Lessons.array_les18;
 
 public class HwLes18_2 {
     public static void showArray(String[][] array){
-        System.out.println("{ ");
+        System.out.print("{ ");
         for (int i = 0; i < array.length; i++) {
-            System.out.println("{");
+            System.out.print("{");
             for (int j = 0; j < array[i].length; j++) {
                 if (j != array[i].length-1){
-                    System.out.println(array[i][j] +", ");
+                    System.out.print(array[i][j] +", ");
                 } else {
-                    System.out.println(array[i][j]);
+                    System.out.print(array[i][j]);
                 }
-
+            }
+            if (i != array.length - 1){
+                System.out.print("}, ");
+            } else {
+                System.out.print("}");
             }
         }
+        System.out.print(" }");
+        System.out.println();
     }
+
+    public static void main(String[] args) {
+        String [][] array = {{"apple", "orange"}, {"hello", "bye", "ok"}, {"car"}};
+        showArray(array);
+        showArray(new String[][]{{"man", "woman"}, {"male", "female"}});
+    }
+
 }
+
+
