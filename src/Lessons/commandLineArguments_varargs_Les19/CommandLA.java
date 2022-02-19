@@ -16,6 +16,7 @@ public class CommandLA {
 
     //Все что я напишу в коммандной строке после названия программы через пробел будут аргументами
     // массива public static void main(String[] args) в методе main
+    // если у нас один элемент например String и разделен пробелом то пишем в кавычках например "ok buy"
 
     //после компиляции и запуска class файла с аргументами через пробел после названия CommandLA
     //C:\Users\Dell\IdeaProjects\java for beginner\src>java Lessons.commandLineArguments.CommandLA ok poka privet on ona
