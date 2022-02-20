@@ -1,4 +1,4 @@
-package Lessons.garbageCollector;
+package Lessons.garbageCollector_Les21;
 
 public class TernaryOperator {
     // boolean Expression ? (если true)expression1 : (если false)expression2
